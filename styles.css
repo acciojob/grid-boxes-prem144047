@@ -1,1 +1,50 @@
-/*  your css code here. If applicable */
+#grid{
+	display:grid;
+	background-color:green;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	height:300px;
+	color:white;
+	grid-template-areas:
+		"a a a a"
+		"b c d d"
+		"b e e f"
+		"b g h i"
+		"b j j j";
+}
+div{
+	border:2px solid white;
+}
+#a1{
+	/* grid-column-start:1;
+	grid-column-end:5; */
+	grid-area:a;
+}
+#b2{
+	/* grid-row-start:2;
+	grid-row-end:5; */
+	grid-area:b;
+}
+#c3{
+	grid-area:c;
+}
+#d4{
+	grid-area:d;
+}
+#e5{
+	grid-area:e;
+}
+#f6{
+	grid-area:f;
+}
+#g7{
+	grid-area:g;
+}
+#h8{
+	grid-area:h;
+}
+#i9{
+	grid-area:i;
+}
+#j0{
+	grid-area:j;
+}
