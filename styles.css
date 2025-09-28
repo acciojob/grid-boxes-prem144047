@@ -11,13 +11,13 @@ div{
 	border:2px solid white;
 }
 #a1{
-	grid-column-start:1;
-	grid-column-end:5;
+	grid-column:span 4/ auto;
+	/* grid-column-end:5; */
 
 }
 #b2{
-	grid-row-start:2;
-	grid-row-end:6;
+	grid-row: span 4/auto;
+	/* grid-row-end:6; */
 }
 #c3{
 	grid-column-start:2;
