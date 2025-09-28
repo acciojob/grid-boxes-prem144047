@@ -10,44 +10,19 @@
 div{
 	border:2px solid white;
 }
-#a1{
+#grid>div#a1{
 	grid-column:span 4/ auto;
-	/* grid-column-end:5; */
-
 }
-#b2{
+#grid>div#b2{
 	grid-row: span 4/auto;
-	/* grid-row-end:6; */
 }
-#c3{
-	grid-column-start:2;
-	grid-column-end:3;
+#grid>div#d4{
+	grid-column: span 2/auto;
+	/* grid-column-end:3; */
 }
-#d4{
-	grid-column-start:3;
-	grid-column-end:5;
+#grid>div#e5{
+	grid-column:span 2/auto;
 }
-#e5{
-	grid-column-start:2;
-	grid-column-end:4;
-}
-#f6{
-grid-column-start:4;
-	grid-column-end:5;
-}
-#g7{
-	grid-column-start:2;
-	grid-column-end:3;
-}
-#h8{
-	grid-column-start:3;
-	grid-column-end:4;
-}
-#i9{
-	grid-column-start:4;
-	grid-column-end:5;
-}
-#j0{
-	grid-column-start:2;
-	grid-column-end:5;
+#grid>div#j0{
+	grid-column: span 3/auto;
 }
